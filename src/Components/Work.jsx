@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "semantic-ui-react";
+import { Grid, Image } from "semantic-ui-react";
 
 export default function Work() {
   return (
@@ -14,12 +14,7 @@ export default function Work() {
         </p>
       </Grid.Column>
       <Grid.Column witdth={16}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis
-          neque. Mollitia dolore quibusdam nihil beatae, ut nisi voluptates
-          nesciunt totam nam voluptate cupiditate minima autem vero quas at
-          minus?
-        </p>
+        <Image />
       </Grid.Column>
     </Grid>
   );

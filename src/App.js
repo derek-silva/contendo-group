@@ -4,13 +4,15 @@ import Work from "./Components/Work";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Video from "./Components/Video";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="dark">
         <NavBar />
+        <Video />
         <Work />
         <About />
         <Contact />
