@@ -3,7 +3,7 @@ import { Grid } from "semantic-ui-react";
 
 export default function About() {
   return (
-    <Grid container>
+    <Grid container className="dark">
       <Grid.Column width={7}>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
@@ -13,7 +13,7 @@ export default function About() {
         </p>
       </Grid.Column>
       <Grid.Column witdth={7}>
-        <h1>About</h1>
+        <h1 className="rama-header">About</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis
           neque. Mollitia dolore quibusdam nihil beatae, ut nisi voluptates

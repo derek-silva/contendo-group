@@ -3,9 +3,9 @@ import { Grid } from "semantic-ui-react";
 
 export default function Work() {
   return (
-    <Grid container>
+    <Grid container className="dark">
       <Grid.Column width={7} textAlign="left">
-        <h1>WORK</h1>
+        <h1 className="rama-header">WORK</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
           quisquam voluptatum, excepturi adipisci accusamus blanditiis, ab,

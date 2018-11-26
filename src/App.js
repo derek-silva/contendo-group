@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Video from "./Components/Video";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import "./App.css";
 
 class App extends Component {
   render() {

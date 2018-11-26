@@ -17,17 +17,20 @@ class NavBar extends Component {
             <Image size="small" src={logoWhite} />
           </Menu.Item>
           <Menu.Item
+            className="rama-nav"
             position="right"
             name="work"
             active={activeItem === "work"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
+            className="rama-nav"
             name="about"
             active={activeItem === "about"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
+            className="rama-nav"
             name="contact"
             active={activeItem === "contact"}
             onClick={this.handleItemClick}
