@@ -3,7 +3,7 @@ import { Grid } from "semantic-ui-react";
 
 export default function Work() {
   return (
-    <Grid container className="dark">
+    <Grid columns={2} container className="dark">
       <Grid.Column width={7} textAlign="left">
         <h1 className="rama-header">WORK</h1>
         <p>

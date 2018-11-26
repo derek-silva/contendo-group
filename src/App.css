@@ -17,6 +17,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 150%;
+  padding: 5px;
 }
 
 .dark {
@@ -24,6 +25,11 @@ p {
   color: white;
 }
 
-html {
+html,
+div {
   background-color: black;
+}
+
+.nav {
+  padding: 0%;
 }

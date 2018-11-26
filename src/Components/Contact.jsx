@@ -3,7 +3,7 @@ import { Grid } from "semantic-ui-react";
 
 export default function Contact() {
   return (
-    <Grid container className="dark">
+    <Grid container className="dark" columns={2}>
       <Grid.Column width={7} textAlign="left">
         <h1 className="rama-header">Contact</h1>
         <br />
