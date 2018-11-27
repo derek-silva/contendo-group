@@ -4,8 +4,8 @@ import { Grid } from "semantic-ui-react";
 export default function About() {
   return (
     <div id="about">
-      <Grid container className="dark" columns={2}>
-        <Grid.Column width={7}>
+      <Grid columns={2}>
+        <Grid.Column width={8}>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
             quisquam voluptatum, excepturi adipisci accusamus blanditiis, ab,
@@ -13,7 +13,7 @@ export default function About() {
             autem fugiat quisquam fuga rem.
           </p>
         </Grid.Column>
-        <Grid.Column witdth={7}>
+        <Grid.Column witdth={6}>
           <h1 className="rama-header">About</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,

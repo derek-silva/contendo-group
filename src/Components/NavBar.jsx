@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Menu, Segment, Image } from "semantic-ui-react";
-import logoWhite from "../Images/logoWhite.png";
+import logoBright from "../Images/logoBright.png";
 
 class NavBar extends Component {
-  state = { activeItem: "work" };
+  // state = { activeItem: "work" };
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
@@ -14,7 +14,7 @@ class NavBar extends Component {
       <Segment inverted style={{ margin: "0px" }}>
         <Menu pointing secondary inverted>
           <Menu.Item position="left">
-            <Image size="small" src={logoWhite} />
+            <Image size="small" src={logoBright} />
           </Menu.Item>
           {/* <Menu.Item
             className="rama-nav"

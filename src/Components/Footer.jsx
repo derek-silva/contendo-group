@@ -9,14 +9,20 @@ export default function Footer() {
           <Grid.Row>
             <Grid.Column width={3}>
               <List link inverted>
-                <List.Item as="a" href="#work">
-                  Work
+                <List.Item>
+                  <a style={{ color: "rgb(45, 255, 254)" }} href="#work">
+                    Work
+                  </a>
                 </List.Item>
-                <List.Item as="a" href="#about">
-                  About
+                <List.Item>
+                  <a style={{ color: "rgb(45, 255, 254)" }} href="#about">
+                    About
+                  </a>
                 </List.Item>
-                <List.Item as="a" href="#contact">
-                  Contact
+                <List.Item>
+                  <a style={{ color: "rgb(45, 255, 254)" }} href="#contact">
+                    Contact
+                  </a>
                 </List.Item>
               </List>
             </Grid.Column>
