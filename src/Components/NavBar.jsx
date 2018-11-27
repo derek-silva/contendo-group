@@ -12,7 +12,7 @@ class NavBar extends Component {
 
     return (
       <Segment inverted>
-        <Menu inverted pointing secondary>
+        <Menu pointing secondary inverted>
           <Menu.Item position="left">
             <Image size="small" src={logoWhite} />
           </Menu.Item>

@@ -29,13 +29,14 @@ html {
   background-color: black;
 }
 
-iframe {
-  overflow: auto;
+h1 {
+  color: rgb(253, 121, 251);
 }
 
-.scroll-wrapper {
-  -webkit-overflow-scrolling: touch;
-  overflow-y: scroll;
+p {
+  color: rgb(45, 255, 254);
+}
 
-  /* important:  dimensions or positioning here! */
+a {
+  color: rgb(45, 255, 254);
 }
