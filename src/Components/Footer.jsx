@@ -1,18 +1,23 @@
 import React from "react";
-import { Segment, Container, Grid, Header, List } from "semantic-ui-react";
+import { Segment, Container, Grid, List } from "semantic-ui-react";
 
 export default function Footer() {
   return (
-    <Segment inverted vertical style={{ padding: "5em 0em" }}>
+    <Segment inverted vertical style={{ padding: "5em 0em", margin: "0px" }}>
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
             <Grid.Column width={3}>
-              <Header inverted as="h4" content="Links" />
               <List link inverted>
-                <List.Item as="a">Work</List.Item>
-                <List.Item as="a">About</List.Item>
-                <List.Item as="a">Contact</List.Item>
+                <List.Item as="a" href="#work">
+                  Work
+                </List.Item>
+                <List.Item as="a" href="#about">
+                  About
+                </List.Item>
+                <List.Item as="a" href="#contact">
+                  Contact
+                </List.Item>
               </List>
             </Grid.Column>
           </Grid.Row>
