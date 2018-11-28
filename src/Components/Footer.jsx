@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <Segment inverted>
       <Container>
-        <Grid columns={2} textAlign="center">
+        <Grid columns={2} textAlign="center" verticalAlign="middle">
           <Grid.Column>
             <Button
               inverted
