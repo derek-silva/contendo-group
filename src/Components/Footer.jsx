@@ -1,32 +1,59 @@
 import React from "react";
-import { Segment, Container, Grid, List } from "semantic-ui-react";
+import { Segment, Grid, Button, Container, List } from "semantic-ui-react";
 
 export default function Footer() {
   return (
-    <Segment inverted vertical style={{ padding: "5em 0em", margin: "0px" }}>
+    <Segment inverted>
       <Container>
-        <Grid divided inverted stackable>
-          <Grid.Row>
-            <Grid.Column width={3}>
-              <List link inverted>
-                <List.Item>
-                  <a style={{ color: "rgb(45, 255, 254)" }} href="#work">
-                    Work
-                  </a>
-                </List.Item>
-                <List.Item>
-                  <a style={{ color: "rgb(45, 255, 254)" }} href="#about">
-                    About
-                  </a>
-                </List.Item>
-                <List.Item>
-                  <a style={{ color: "rgb(45, 255, 254)" }} href="#contact">
-                    Contact
-                  </a>
-                </List.Item>
-              </List>
-            </Grid.Column>
-          </Grid.Row>
+        <Grid columns={2} textAlign="center">
+          <Grid.Column>
+            <Button
+              inverted
+              circular
+              color="white"
+              icon="facebook"
+              onClick={() =>
+                window.open("https://www.facebook.com/contendogroupllc")
+              }
+            />
+            <Button
+              inverted
+              circular
+              color="white"
+              icon="twitter"
+              onClick={() => window.open("http://www.twitter.com")}
+            />
+            <Button
+              inverted
+              circular
+              color="white"
+              icon="linkedin"
+              onClick={() => window.open("http://www.linkedin.com")}
+            />
+            <Button
+              inverted
+              circular
+              color="white"
+              icon="google plus"
+              onClick={() => window.open("http://www.google.com")}
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <List inverted horizontal bulleted link>
+              <List.Item as="a" href="#work">
+                Work
+              </List.Item>
+              <List.Item as="a" href="#about">
+                About
+              </List.Item>
+              <List.Item as="a" href="#contact">
+                Contact
+              </List.Item>
+            </List>
+            <h6 style={{ color: "grey", margin: "0px" }}>
+              © contendogroup.com, Inc. All rights reserved.
+            </h6>
+          </Grid.Column>
         </Grid>
       </Container>
     </Segment>

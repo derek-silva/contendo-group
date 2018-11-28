@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
+import Gallery from "./Gallery";
 
 export default function Work() {
   return (
@@ -18,7 +19,7 @@ export default function Work() {
           </p>
         </Grid.Column>
         <Grid.Column witdth={10}>
-          <div id="map" />
+          <Gallery />
         </Grid.Column>
       </Grid>
     </div>
