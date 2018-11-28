@@ -11,6 +11,12 @@ export default function Contact() {
           <br />
           <p>email: contendogroup@gmail.com</p>
           <p>phone: (713)730-9428</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+            debitis neque. Mollitia dolore quibusdam nihil beatae, ut nisi
+            voluptates nesciunt totam nam voluptate cupiditate minima autem vero
+            quas at minus?
+          </p>
         </Grid.Column>
         <Grid.Column witdth={10}>
           <GoogleMaps />

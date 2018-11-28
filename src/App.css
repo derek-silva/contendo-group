@@ -54,3 +54,8 @@ a {
   border-color: white;
   padding: 25px;
 } */
+
+#maps-info-window {
+  color: black;
+  font-family: rama-gothic-e, sans-serif;
+}
