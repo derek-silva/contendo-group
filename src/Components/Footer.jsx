@@ -10,7 +10,6 @@ export default function Footer() {
             <Button
               inverted
               circular
-              color="white"
               icon="facebook"
               onClick={() =>
                 window.open("https://www.facebook.com/contendogroupllc")
@@ -19,21 +18,18 @@ export default function Footer() {
             <Button
               inverted
               circular
-              color="white"
               icon="twitter"
               onClick={() => window.open("http://www.twitter.com")}
             />
             <Button
               inverted
               circular
-              color="white"
               icon="linkedin"
               onClick={() => window.open("http://www.linkedin.com")}
             />
             <Button
               inverted
               circular
-              color="white"
               icon="google plus"
               onClick={() => window.open("http://www.google.com")}
             />
