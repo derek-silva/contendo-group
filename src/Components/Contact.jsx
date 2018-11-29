@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "semantic-ui-react";
+import { Grid, Form, Button, TextArea } from "semantic-ui-react";
 import GoogleMaps from "./GoogleMaps";
 
 export default function Contact() {
@@ -11,12 +11,19 @@ export default function Contact() {
           <br />
           <p>email: contendogroup@gmail.com</p>
           <p>phone: (713)730-9428</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-            debitis neque. Mollitia dolore quibusdam nihil beatae, ut nisi
-            voluptates nesciunt totam nam voluptate cupiditate minima autem vero
-            quas at minus?
-          </p>
+          <Form inverted widths="equal">
+            <Form.Field>
+              <label>Email</label>
+              <input placeholder="Your email here..." />
+            </Form.Field>
+            <Form.Field>
+              <label>Message</label>
+              <TextArea autoHeight placeholder="Your message here..." />
+            </Form.Field>
+            <Button inverted type="submit">
+              Send Message
+            </Button>
+          </Form>
         </Grid.Column>
         <Grid.Column witdth={10}>
           <GoogleMaps />
