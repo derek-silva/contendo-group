@@ -6,6 +6,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Video from "./Components/Video";
 import "./App.css";
+import { Grid } from "semantic-ui-react";
 
 class App extends Component {
   constructor(props) {
@@ -29,15 +30,32 @@ class App extends Component {
   render() {
     return (
       <div id="app-div">
-        <NavBar />
-        <Video />
-        <Work />
-        <About />
-        <Contact
-          handleChange={this.handleChange}
-          handleSubmit={this.handleSubmit}
-        />
-        <Footer />
+        <Grid>
+          <Grid.Row>
+            <NavBar />
+          </Grid.Row>
+
+          <Grid.Row>
+            <Video />
+          </Grid.Row>
+
+          <Grid.Row>
+            <Work />
+          </Grid.Row>
+
+          <Grid.Row>
+            <About />
+          </Grid.Row>
+          <Grid.Row>
+            <Contact
+              handleChange={this.handleChange}
+              handleSubmit={this.handleSubmit}
+            />
+          </Grid.Row>
+          <Grid.Row>
+            <Footer />
+          </Grid.Row>
+        </Grid>
       </div>
     );
   }
