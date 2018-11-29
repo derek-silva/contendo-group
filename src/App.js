@@ -8,14 +8,35 @@ import Video from "./Components/Video";
 import "./App.css";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: null,
+      email: null,
+      message: null
+    };
+  }
+
+  handleChange = e => {
+    this.setState({ [e.target.id]: e.target.value });
+  };
+
+  handleSubmit = e => {
+    console.log(this.state);
+  };
+
   render() {
     return (
-      <div className="dark">
+      <div id="app-div">
         <NavBar />
         <Video />
         <Work />
         <About />
-        <Contact />
+        <Contact
+          handleChange={this.handleChange}
+          handleSubmit={this.handleSubmit}
+        />
         <Footer />
       </div>
     );
